@@ -60,6 +60,16 @@ table {
 	width: 760px;
 	margin: auto;
 }
+.imagewrapper {
+	padding-top: 50px;
+	width: 760px;
+	margin: auto;
+}
+.contactwrapper {
+	padding-top: 50px;
+	width: 760px;
+	margin: auto;
+}
 .h1 {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 800; 
@@ -85,18 +95,13 @@ table {
 	color:#444444;
 	font-size: 22px;
 	letter-spacing: .09em;
-
 }
-
 .p{
 	font-family: Georgia;
 	font-size: 24px;
 	color:#444444;
 	padding-top: 30px;
 	line-height: 1.9;
-
-
-
 }	
 .break {
 	background-color: #d3d3d3;
@@ -107,7 +112,22 @@ table {
 .story { 
  	background-color: #eeeeee;
  	width: 100%;
- 	height: 840px;
-	text-align: left;
+ 	text-align: left;
 	}
+.image { 
+ 	background-color: #f8f8f8;
+ 	width: 100%;
+ 	text-align: left;
+ 	/*padding-bottom: 50px;*/
+	}
+.imagepadding {
+	padding-bottom: 30px;
+}		
+.contact {
+	background-color: #eeeeee;
+ 	width: 100%;
+ 	text-align: left;
+ 	padding-bottom: 50px;*/
+
+}
 
