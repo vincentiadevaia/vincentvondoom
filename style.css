@@ -57,17 +57,17 @@ table {
 }
 .storywrapper {
 	padding-top: 50px;
-	width: 730px;
+	width: 760px;
 	margin: auto;
 }
 .imagewrapper {
 	padding-top: 50px;
-	width: 730px;
+	width: 760px;
 	margin: auto;
 }
 .contactwrapper {
 	padding-top: 50px;
-	width: 730px;
+	width: 760px;
 	margin: auto;
 }
 .h1 {
@@ -127,8 +127,32 @@ table {
 	background-color: #eeeeee;
  	width: 100%;
  	text-align: left;
- 	padding-bottom: 50px;
-
+ 	padding-bottom: 100px;
+}
+.followul {
+	font-family: Georgia;
+	font-size: 24px;
+	color:#444444;
+	line-height: 1.4;
+	/*display: inline;*/
+    /*overflow: auto;*/
+    
+}
+.followli {
+  height: 25px;
+  float: left;
+  margin-top: 10px;
+  margin-right: 0px;
+  padding-right: 15px;
+}
+.followli a {
+  color: #555555;
+}
+.followli a:hover{
+  color: #777777;
+}
+.followli.active a  {
+  color: #777777;
 }
 a:link {color:#555555;}    
 a:visited {color:#555555;} 
