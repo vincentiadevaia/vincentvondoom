@@ -57,7 +57,7 @@ table {
 }
 .storywrapper {
 	padding-top: 50px;
-	width: 760px;
+	max-width: 760px;
 	margin: auto;
 }
 .imagewrapper {
@@ -105,9 +105,10 @@ table {
 }	
 .break {
 	background-color: #d3d3d3;
- 	width: 100%;
  	height: 1px;
  	margin-top: 33px;
+ 	margin-bottom: 0px;
+ 	border: none;
 }
 .story { 
  	background-color: #eeeeee;
