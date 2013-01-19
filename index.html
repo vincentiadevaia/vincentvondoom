@@ -14,9 +14,12 @@
 	<link href="doom/doom.css" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
 
-	<script src="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="http://code.jquery.com/mobile/1.0a3/jquery.mobile-1.0a3.min.js"></script>
+
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 	<script src="jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+
 	
 
 <script type="text/javascript">
@@ -26,17 +29,21 @@ $(window).load(function(){
 		pauseTime: 10000,
     	animSpeed: 500,
 	});
-     $('#slider1').bind( 'swipeleft', function( e ) {
+    $('#slider1').bind( 'swipeleft', function( e ) {
+		e.preventDefault();
 		$('a.nivo-nextNav').trigger('click');
 		e.stopImmediatePropagation();
 		return false;
-	} );  
+	});
 
-	 $('#slider1').bind( 'swiperight', function( e ) {
+	$('#slider1').bind( 'swiperight', function( e ) {
+		e.preventDefault();
 		$('a.nivo-prevNav').trigger('click');
 		e.stopImmediatePropagation();
 		return false;
-	} ); 	
+	});
+    
+
     $('#slider2').nivoSlider({
 		effect: 'fade',
 		animSpeed:500,
