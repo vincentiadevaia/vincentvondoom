@@ -28,24 +28,10 @@ $(window).load(function(){
 		pauseTime: 10000,
     	animSpeed: 500,
 	});
-    $('#slider1').bind( 'swipeleft', function( e ) {
-		e.preventDefault();
-		$('a.nivo-nextNav').trigger('click');
-		e.stopImmediatePropagation();
-		return false;
-	});
-
-	$('#slider1').bind( 'swiperight', function( e ) {
-		e.preventDefault();
-		$('a.nivo-prevNav').trigger('click');
-		e.stopImmediatePropagation();
-		return false;
-	});
-    
 	$('#slider2').nivoSlider({
 		effect: 'fade',
 		animSpeed:500,
-		pauseTime: 10000,
+		pauseTime: 13000,
 	} );
 	$('#slider3').nivoSlider({
 		effect: 'fade',
@@ -60,7 +46,7 @@ $(window).load(function(){
 	$('#slider5').nivoSlider({
 		effect: 'fade',
 		animSpeed:500,
-		pauseTime: 10000,
+		pauseTime: 13000,
 	});
 	$(document).ready(function() {
     $('#nav').localScroll({duration:800});
@@ -80,9 +66,9 @@ $(window).load(function(){
 <hr class="break" />
 <div class="story">
 	<div id="nav" class="storywrapper">
-		<h3 class="h3">It was a wrong number that started it</h3>
+		<h3 class="h3">Level 3 Product Designer +1 CSS Wisdom</h3>
 		<p class="p">Hi. My name is Vincent, and I'm a UI/UX designer.
-			I once made an <a href="#papercut">iOS game</a> and I used to work at <a href="http://barbariangroup.com/" target="_blank">The Barbarian Group</a>. I like to collect vintage <a href="#kirbycovers">comic books</a> drawn by Jack Kirby. <a href="mailto:vincentiadevaia@gmail.com" target="_blank"> Email me.</a></p> 
+			I once made an <a href="#papercut">iOS game</a> and I used to work at <a href="http://barbariangroup.com/" target="_blank">The Barbarian Group</a>. I collect vintage <a href="#kirbycovers">comic books</a> drawn by Jack Kirby. <a href="mailto:vincentiadevaia@gmail.com" target="_blank"> Email me.</a></p> 
 </div>
 <hr class="break" />
 <div class="image">
