@@ -104,7 +104,6 @@ a:active {color:#555555;}
 	background-image: url('logo.svg');
 	background-repeat: no-repeat;
 	background-position: top center;
-	/*border: 1px solid yellow;*/
 	padding-top: 145px;
 	line-height: 2.5;
 }
@@ -116,11 +115,10 @@ a:active {color:#555555;}
 	font-size: 16px;
 }
 .h3 {
-	font-family: 'Bitter', serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 800; 
-	color:#444444;
+	color:#333333;
 	font-size: 20px;
-	letter-spacing: .09em;
 }
 .header { 
  	background-color: #ff5151;
