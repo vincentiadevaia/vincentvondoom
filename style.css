@@ -64,8 +64,9 @@ a:active {color:#555555;}
 .contact {
 	background-color: #eeeeee;
  	width: 100%;
- 	text-align: left;
+	text-align: left;
  	padding-bottom: 100px;
+	background-repeat: no-repeat;
 }
 .contactwrapper {
 	padding-top: 50px;
@@ -115,9 +116,9 @@ a:active {color:#555555;}
 	font-size: 16px;
 }
 .h3 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Bitter', serif;
 	font-weight: 800; 
-	color:#333333;
+	color:#353535;
 	font-size: 20px;
 }
 .header { 
