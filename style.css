@@ -25,6 +25,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	background-color: #eeeeee;
 }
 ol, ul {
 	list-style: none;
@@ -50,32 +51,16 @@ a:hover {color:#777777;}
 a:active {color:#555555;}
 
 .break {
-	background-color: #d3d3d3;
+	background-color: #cccccc;
  	height: 1px;
- 	margin-top: 33px;
+ 	margin-top: 70px;
  	margin-bottom: 0px;
  	border: none;
- 	-webkit-box-shadow: 0 -1px 25px rgba(0,0,0,0.25);
-	-moz-box-shadow: 0 -1px 25px rgba(0,0,0,0.25);
-	box-shadow: 0 -1px 25px rgba(0,0,0,0.25);
-
-
-}
-.contact {
-	background-color: #eeeeee;
- 	width: 100%;
-	text-align: left;
- 	padding-bottom: 100px;
-	background-repeat: no-repeat;
-}
-.contactwrapper {
-	padding-top: 50px;
-	width: 700px;
-	margin: auto;
 }
 .followul {
+	padding-top: 15px;
 	font-family: Georgia;
-	font-size: 20px;
+	font-size: 16px;
 	color:#444444;
 	line-height: 1.4;
 	/*display: inline;*/
@@ -109,22 +94,17 @@ a:active {color:#555555;}
 	line-height: 2.5;
 }
 .h2 {
-	font-family: 'Bitter', serif;
-	font-weight: 400;
-	line-height: 1.8;
-	color: #353535;
-	font-size: 16px;
-}
-.h3 {
-	font-family: 'Bitter', serif;
+	font-family: 'Helvetica Neue',Helvetica,Arial,Sans-Serif;
 	font-weight: 800; 
-	color:#353535;
-	font-size: 20px;
+	color:#333333;
+	font-size: 24px;
+	padding-top: 40px;
+	line-height: 2.5;
 }
 .header { 
- 	background-color: #ff5151;
+ 	/*background-color: #ff5151;*/
  	width: 100%;
- 	height: 360px;
+ 	height: 280px;
 	text-align: center;
 	}
 .headwrapper {
@@ -133,34 +113,28 @@ a:active {color:#555555;}
 	margin: auto;
 }
 .image { 
- 	background-color: #f8f8f8;
  	width: 100%;
  	text-align: left;
  	/*padding-bottom: 50px;*/
 	}
-.imagepadding {
-	padding-bottom: 340px;
-}
 .imagewrapper {
-	padding-top: 50px;
-	width: 700px;
+	padding-top: 0px;
+	width: 595px;
 	margin: auto;
 }
 .p{
 	font-family: Georgia;
 	font-size: 20px;
 	color:#444444;
-	padding-top: 24px;
 	line-height: 1.8;
 }	
 .story { 
- 	background-color: #eeeeee;
  	width: 100%;
  	text-align: left;
+
 	}
 .storywrapper {
-	padding-top: 50px;
-	max-width: 700px;
+	max-width: 595px;
 	margin: auto;
 }
 
