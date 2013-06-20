@@ -51,9 +51,9 @@ a:hover {color:#777777;}
 a:active {color:#555555;}
 
 .break {
-	background-color: #d3d3d3;
+	background-color: #cccccc;
  	height: 1px;
- 	margin-top: 0px;
+ 	margin-top: 70px;
  	margin-bottom: 0px;
  	border: none;
 }
@@ -93,6 +93,14 @@ a:active {color:#555555;}
 	padding-top: 145px;
 	line-height: 2.5;
 }
+.h2 {
+	font-family: 'Helvetica Neue',Helvetica,Arial,Sans-Serif;
+	font-weight: 800; 
+	color:#333333;
+	font-size: 24px;
+	padding-top: 40px;
+	line-height: 2.5;
+}
 .header { 
  	/*background-color: #ff5151;*/
  	width: 100%;
@@ -102,6 +110,16 @@ a:active {color:#555555;}
 .headwrapper {
 	padding-top: 50px;
 	width: 350px;
+	margin: auto;
+}
+.image { 
+ 	width: 100%;
+ 	text-align: left;
+ 	/*padding-bottom: 50px;*/
+	}
+.imagewrapper {
+	padding-top: 0px;
+	width: 595px;
 	margin: auto;
 }
 .p{
