@@ -53,7 +53,7 @@ a:active {color:#555555;}
 .break {
 	background-color: #cccccc;
  	height: 1px;
- 	margin-top: 70px;
+ 	margin-top: 50px;
  	margin-bottom: 0px;
  	border: none;
 }
@@ -118,8 +118,8 @@ a:active {color:#555555;}
  	/*padding-bottom: 50px;*/
 	}
 .imagewrapper {
-	padding-top: 0px;
-	width: 595px;
+	padding-top: 30px;
+	width: 802px;
 	margin: auto;
 }
 .p{
@@ -130,11 +130,16 @@ a:active {color:#555555;}
 }	
 .story { 
  	width: 100%;
- 	text-align: left;
+ 	text-align: center;
 
 	}
 .storywrapper {
-	max-width: 595px;
+	max-width: 802px;
+	margin: auto;
+}
+.textwrapper {
+	padding-top: 0px;
+	width: 802px;
 	margin: auto;
 }
 
