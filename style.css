@@ -26,7 +26,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	 background-color: #222222;
+	 background-color: #333333;
 	 height: 100%;
 }
 
@@ -123,8 +123,8 @@ a:active {color:#333333; text-decoration: none; font-weight: 400; font-size: 16p
 
 }
 .footer {
-	background-color: #222222;
-	margin-top: 40px;
+	margin-top: 30px;
+	text-align: center;
 }
 .footer_ul {
 	display: inline;
@@ -132,20 +132,29 @@ a:active {color:#333333; text-decoration: none; font-weight: 400; font-size: 16p
 }
 
 .footer_copy {
-	color:#333333;
+	color:#eeeeee;
 	font-family: "proxima-nova";
 	font-weight: 300; 
-	font-size: 14px;
+	font-size: 16px;
+	line-height: 1.4;
 	display: inline;
 }
 .footer_container {
-	width: 300px;
+	width: 460px;
 	margin: auto;
-	padding-top: 25px;
 	padding-bottom: 25px;
 }
 .form_container {
 	background-color: #f8f8f8;
+}
+.footer_title {
+	color:#eeeeee;
+	font-family: "proxima-nova";
+	font-weight: 600; 
+	font-size: 18px;
+	line-height: 1.4;
+	display: block;
+	padding-bottom: 10px;
 }
 .form {
 	margin: auto;
@@ -221,6 +230,9 @@ li {
 	margin: 10px;
 	width: 305;
 	height: 200px;
+	outline-style: solid;
+	outline-width: 1px;
+	outline-color: #adadad;
 }
 
 .row {
