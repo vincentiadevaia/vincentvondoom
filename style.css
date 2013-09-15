@@ -61,16 +61,12 @@ input[type="button"]:hover { cursor: pointer; }
 
 a:link {color:#333333; text-decoration: none; font-weight: 400; font-size: 16px;}    
 a:visited {color:#333333; text-decoration: none; font-weight: 400; font-size: 16px;}
-a:hover {color:#555555; text-decoration: none; font-weight: 400; font-size: 16px;}   
+a:hover {color:#888888; text-decoration: none; font-weight: 400; font-size: 16px;}   
 a:active {color:#333333; text-decoration: none; font-weight: 400; font-size: 16px;}
-.footer_link a:link {margin-right: 10px; color:#fefefe; text-decoration: none; font-weight: 400; font-size: 12px;}    
-.footer_link a:visited {margin-right: 10px; color:#fefefe; text-decoration: none; font-weight: 400; font-size: 12px;}
-.footer_link a:hover {margin-right: 10px; color:#eeeeee; text-decoration: none; font-weight: 400; font-size: 12px;}   
-.footer_link a:active {margin-right: 10px; color:#fefefe; text-decoration: none; font-weight: 400; font-size: 12px;}
-.curator_link a:link {color:#333333; text-decoration: underline; font-weight: 400; font-size: 14px;}    
-.curator_link a:visited {color:#333333; text-decoration: underline; font-weight: 400; font-size: 14px;}
-.curator_link a:hover {color:#555555; text-decoration: underline; font-weight: 400; font-size: 14px;}   
-.curator_link a:active {color:#333333; text-decoration: underline; font-weight: 400; font-size: 14px;}
+.footer_container a:link {color:#fefefe; text-decoration: underline; font-weight: 300; font-size: 16px;}    
+.footer_container a:visited {color:#fefefe; text-decoration: underline; font-weight: 300; font-size: 16px;}
+.footer_container a:hover {color:#999999; text-decoration: underline; font-weight: 300; font-size: 16px;}   
+.footer_container a:active {color:#fefefe; text-decoration: underline; font-weight: 300; font-size: 16px;}
 
 .avatar {
 	background-image: url('avatar.jpg');
@@ -141,7 +137,7 @@ a:active {color:#333333; text-decoration: none; font-weight: 400; font-size: 16p
 	font-family: "proxima-nova";
 	font-weight: 300; 
 	font-size: 16px;
-	line-height: 1.4;
+	line-height: 1.7;
 	display: inline;
 }
 .footer_container {
