@@ -26,13 +26,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-<<<<<<< HEAD
-	line-height: 1;
-	background-color: #fefefe;
-=======
 	 background-color: #333333;
 	 height: 100%;
->>>>>>> 6c4a2c83e95674321f2f36c043f14d9276225e1c
 }
 
 ol, ul {
@@ -187,12 +182,6 @@ a:active {color:#333333; text-decoration: none; font-weight: 400; font-size: 16p
 	
 
 .header { 
-<<<<<<< HEAD
- 	/*background-color: #49db8a;*/
- 	width: 100%;
- 	height: 280px;
-	text-align: center;
-=======
 	background-color: #f8f8f8;
  	display:block; 
  	overflow: hidden; 
@@ -200,7 +189,6 @@ a:active {color:#333333; text-decoration: none; font-weight: 400; font-size: 16p
   	border-style:solid;
   	border-bottom-color:#cccccc;
   	padding-bottom: 5px;
->>>>>>> 6c4a2c83e95674321f2f36c043f14d9276225e1c
 	}
 .header_nav a { 
  	padding: 1.4em 1em 1em 1em;
@@ -227,18 +215,6 @@ li {
 	}	
 .p {
 	color:#444444;
-<<<<<<< HEAD
-	line-height: 1.8;
-}	
-.story { 
- 	width: 100%;
- 	text-align: center;
-}
-.storywrapper {
-	max-width: 802px;
-	margin: auto;
-
-=======
 	font-family: "proxima-nova";
 	font-weight: 400; 
 	font-size: 16px;
@@ -253,7 +229,6 @@ li {
 	outline-style: solid;
 	outline-width: 1px;
 	outline-color: #adadad;
->>>>>>> 6c4a2c83e95674321f2f36c043f14d9276225e1c
 }
 
 .row {
