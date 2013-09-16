@@ -195,6 +195,9 @@ li {
 	margin: auto;
 	width: 1024px;
 }
+.project-padding {
+	padding: 1.4em 1em 1em 1.4em;
+}
 .project-image {
 	margin-bottom: 30px;
 	width: 980;
