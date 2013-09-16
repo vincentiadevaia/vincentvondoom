@@ -63,59 +63,11 @@ a:active {color:#333333; text-decoration: none; font-weight: 400; font-size: 16p
 .footer_container a:hover {color:#999999; text-decoration: underline; font-weight: 300; font-size: 16px;}   
 .footer_container a:active {color:#fefefe; text-decoration: underline; font-weight: 300; font-size: 16px;}
 
-.avatar {
-	background-image: url('avatar.jpg');
-	background-repeat:no-repeat;
-	background-position: center center;
-	display:block;
-	height: 60px;
-	width: 60px;
-	border:1px solid;
-	border-color: #adadad;
-	border-radius:4px;
-	float: left;
-}
-.buynow {
-	margin-top: 14px;
-	margin-bottom: 46px;
-
-}
-
-.checkout {
-	padding-top: 12px;
-	display:block; 
-}
 
 .container {
 	width:1024;
 	margin: auto;
 	padding-top: 20px;
-
-}
-.curator {
-	padding-top: 20px;
-	display:block; 
- 	overflow: hidden; 
-}
-.curator_bio {
-	color:#333333;
-	font-family: "Helvetica Neue";
-	font-weight: 400; 
-	font-size: 14px;
-	line-height: 1.5;
-	float : right;
-	width: 390px;
-}
-.date {
-	color:#666666;
-	font-family: "proxima-nova";
-	font-weight: 600; 
-	font-size: 14px;
-	margin-top: 10px;
-
-}
-.dropdown {
-	margin-top: 14px;
 
 }
 .footer {
@@ -141,7 +93,7 @@ a:active {color:#333333; text-decoration: none; font-weight: 400; font-size: 16p
 	padding-bottom: 45px;
 }
 .form_container {
-	background-color: #f8f8f8;
+	background-color: #ffffff;
 }
 .footer_title {
 	color:#eeeeee;
@@ -156,6 +108,7 @@ a:active {color:#333333; text-decoration: none; font-weight: 400; font-size: 16p
 	margin: auto;
 	width: 1024px;
 	padding-bottom: 45px;
+
 }
 .h1 {
 	color:#333333;
@@ -182,7 +135,7 @@ a:active {color:#333333; text-decoration: none; font-weight: 400; font-size: 16p
 	
 
 .header { 
-	background-color: #f8f8f8;
+	background-color: #ffffff;
  	display:block; 
  	overflow: hidden; 
  	border-bottom-width:1px;
@@ -193,7 +146,15 @@ a:active {color:#333333; text-decoration: none; font-weight: 400; font-size: 16p
 .header_nav a { 
  	padding: 1.4em 1em 1em 1em;
  	display: inline-block;
-
+}
+.jerb {
+	font-family: "proxima-nova";
+	font-weight: 600;
+	padding: 1.4em 1em 1em 1em;
+	display:block;
+	margin-left: 0px;
+	width: 125px;
+	float: left;
 	}
 li {
 	color:#333333;
@@ -230,25 +191,52 @@ li {
 	outline-width: 1px;
 	outline-color: #adadad;
 }
-
-.row {
-	height: 200px;
+.project-container {
 	margin: auto;
-	padding-left: 14px;
-	padding-right: 14px;
+	width: 1024px;
+}
+.project-image {
+	margin-bottom: 30px;
+	width: 980;
+	height: 645px;
+	outline-style: solid;
+	outline-width: 1px;
+	outline-color: #adadad;
+}
+
+.project-title{
+	margin: auto;
+	width: 1024px;
+	padding-top: 20px;
+}
+.project-info{
+	margin: auto;
+	width: 1024px;
+	padding-bottom: 150px;
+}
+
+.role {
+	font-family: "proxima-nova";
+	font-weight: 300;
+	padding: .8em .4em .4em 1.4em;
+	margin-left: 270px;
+	width: 500px;
+	float: left;
 }
 
 strong { font-weight: 600;  
 }
+
 .title {
 	font-family: "proxima-nova";
-	font-weight: 300;
-	padding: 1.4em 1em 1em 1.4em;
+	font-weight: 600;
+	padding: .8em .4em .4em 1.4em;
 	display:block;
 	margin-left: 0px;
 	width: 125px;
 	float: left;
 	}
+
 
 .ul {
  	margin-right: 14px;
