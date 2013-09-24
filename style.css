@@ -26,7 +26,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	 background-color: #333333;
+	 background-color: #ffffff;
 	 height: 100%;
 }
 
@@ -54,20 +54,28 @@ html {
 input[type="submit"]:hover { cursor: pointer; }
 input[type="button"]:hover { cursor: pointer; }
 
-a:link {color:#333333; text-decoration: none; font-weight: 400; font-size: 16px;}    
-a:visited {color:#333333; text-decoration: none; font-weight: 400; font-size: 16px;}
-a:hover {color:#888888; text-decoration: none; font-weight: 400; font-size: 16px;}   
-a:active {color:#333333; text-decoration: none; font-weight: 400; font-size: 16px;}
-.footer_container a:link {color:#fefefe; text-decoration: underline; font-weight: 300; font-size: 16px;}    
-.footer_container a:visited {color:#fefefe; text-decoration: underline; font-weight: 300; font-size: 16px;}
-.footer_container a:hover {color:#999999; text-decoration: underline; font-weight: 300; font-size: 16px;}   
-.footer_container a:active {color:#fefefe; text-decoration: underline; font-weight: 300; font-size: 16px;}
+a:link {color:#333333; text-decoration: none; font-weight: 300; font-size: 16px;}    
+a:visited {color:#333333; text-decoration: none; font-weight: 300; font-size: 16px;}
+a:hover {color:#888888; text-decoration: none; font-weight: 300; font-size: 16px;}   
+a:active {color:#333333; text-decoration: none; font-weight: 300; font-size: 16px;}
+a.name:link {color:#333333; text-decoration: none; font-weight: 600;}    
+a.name:visited {color:#333333; text-decoration: none; font-weight: 600;}
+a.name:hover {color:#666666; text-decoration: none; font-weight: 600;}   
+a.name:active {color:#333333; text-decoration: none; font-weight: 600;}
 
-
+.break {
+	background-color: #d3d3d3;
+ 	height: 1px;
+ 	margin: auto;
+ 	border: none;
+ 	width: 980px;
+ 	}
 .container {
-	width:1024;
 	margin: auto;
-	padding-top: 20px;
+
+}
+.container-padding{
+	padding: .4em 1em 1em 1em;
 
 }
 .footer {
@@ -80,7 +88,7 @@ a:active {color:#333333; text-decoration: none; font-weight: 400; font-size: 16p
 }
 
 .footer_copy {
-	color:#eeeeee;
+	color:#333333;
 	font-family: "proxima-nova";
 	font-weight: 300; 
 	font-size: 16px;
@@ -96,7 +104,7 @@ a:active {color:#333333; text-decoration: none; font-weight: 400; font-size: 16p
 	background-color: #ffffff;
 }
 .footer_title {
-	color:#eeeeee;
+	color:#333333;
 	font-family: "proxima-nova";
 	font-weight: 600; 
 	font-size: 18px;
@@ -106,8 +114,15 @@ a:active {color:#333333; text-decoration: none; font-weight: 400; font-size: 16p
 }
 .form {
 	margin: auto;
-	width: 1024px;
-	padding-bottom: 45px;
+	width: 980px;
+	padding-bottom: 25px;
+	padding-top: 20px;
+}
+.form-bottom {
+	margin: auto;
+	width: 980px;
+	padding-bottom: 25px;
+	padding-top: 20px;
 }
 
 .h1 {
@@ -142,9 +157,11 @@ a:active {color:#333333; text-decoration: none; font-weight: 400; font-size: 16p
   	border-style:solid;
   	border-bottom-color:#cccccc;
   	padding-bottom: 5px;
+  	width: 980px;
+  	margin: auto;
 	}
 .header_nav a { 
- 	padding: 1.4em 1em 1em 1em;
+ 	padding: 1.4em .4em 1em 1em;
  	display: inline-block;
 }
 .jerb {
@@ -167,7 +184,8 @@ li {
 .logo {
 	font-family: "proxima-nova";
 	font-weight: 600;
-	padding: 1.4em 1em 1em 1.4em;
+	padding-top: 1.4em;
+	padding-left: .4em;
 	display:block;
 	margin-left: 0px;
 	width: 125px;
@@ -204,7 +222,7 @@ li {
 	padding: 1.4em 1em 1em 1.4em;
 }
 .project-image {
-	margin-bottom: 30px;
+	margin-bottom: 25px;
 	width: 980;
 	/*height: 645px;*/
 	outline-style: solid;
@@ -236,9 +254,10 @@ strong { font-weight: 600;
 }
 
 .title {
+
 	font-family: "proxima-nova";
 	font-weight: 600;
-	padding: .8em .4em .4em 1.4em;
+	padding: .8em .4em .4em 1.8em;
 	display:block;
 	margin-left: 0px;
 	width: 250px;
@@ -247,8 +266,7 @@ strong { font-weight: 600;
 .title-2 {
 	font-family: "proxima-nova";
 	font-weight: 300;
-	padding: .8em .4em .4em 1.4em;
-	display:block;
+	padding: .8em .4em .4em 1.8em;
 	margin-left: 0px;
 	width: 250px;
 	float: left;
@@ -256,7 +274,6 @@ strong { font-weight: 600;
 
 
 .ul {
- 	margin-right: 14px;
  	display: inline;
  	float: right;
  	color:#fefefe;
