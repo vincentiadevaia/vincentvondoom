@@ -1,4 +1,5 @@
 
+
 /* Reset! */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -163,10 +164,10 @@ a.name:active {color:#333333; text-decoration: none; font-weight: 600;}
 	background-color: #ffffff;
  	display:block; 
  	overflow: hidden; 
- 	/*border-bottom-width:1px;*/
-  	/*border-style:solid;*/
-  	/*border-bottom-color:#cccccc;*/
-  	/*padding-bottom: 5px;*/
+ 	border-bottom-width:1px;*/
+  	border-style:solid;*/
+  	border-bottom-color:#cccccc;*/
+  	padding-bottom: 5px;*/
   	width: 964px;
   	margin: auto;
 	}
