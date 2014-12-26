@@ -25,7 +25,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	background-color: #eeeeee;
+	background-color: #f9f9f9;
 }
 ol, ul {
 	list-style: none;
@@ -45,96 +45,60 @@ table {
 
 /*Website starts here!
 */
-a:link {color:#555555;}    
-a:visited {color:#555555;} 
-a:hover {color:#777777;}   
-a:active {color:#555555;}
+a:link {color:#777;}    
+a:visited {color:#777;} 
+a:hover {color:#555;}   
+a:active {color:#777;}
 
-.break {
-	background-color: #cccccc;
- 	height: 1px;
- 	margin-top: 70px;
- 	margin-bottom: 0px;
- 	border: none;
-}
-.followul {
-	padding-top: 15px;
-	font-family: Georgia;
-	font-size: 16px;
-	color:#444444;
-	line-height: 1.4;
-	/*display: inline;*/
-    /*overflow: auto;*/
-}
-.followli {
-  height: 25px;
-  float: left;
-  margin-top: 10px;
-  margin-right: 0px;
-  padding-right: 15px;
-}
-.followli a {
-  color: #555555;
-}
-.followli a:hover{
-  color: #777777;
-}
-.followli.active a  {
-  color: #777777;
+.endnote { 
+ 	width: 640px;
+ 	padding-top: 36px;
+ 	padding-bottom: 26px;
+ 	margin: auto;
+ 	text-align: let;
 }
 .h1 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: "proxima-nova";
 	font-weight: 800; 
 	color:#333333;
 	font-size: 30px;
-	background-image: url('logo.svg');
-	background-repeat: no-repeat;
-	background-position: top center;
-	padding-top: 145px;
 	line-height: 2.5;
+	text-align: left;
 }
 .h2 {
-	font-family: 'Helvetica Neue',Helvetica,Arial,Sans-Serif;
-	font-weight: 800; 
-	color:#333333;
-	font-size: 24px;
-	padding-top: 40px;
-	line-height: 2.5;
+	font-family: "proxima-nova";
+	font-weight: 400; 
+	color:#999999;
+	font-size: 12px;
 }
-.header { 
- 	/*background-color: #ff5151;*/
- 	width: 100%;
- 	height: 280px;
-	text-align: center;
-	}
-.headwrapper {
-	padding-top: 50px;
-	width: 350px;
-	margin: auto;
+li {
+	font-family: "proxima-nova",sans-serif;
+	font-weight: 400; 
+	display:inline;
+	margin-right: 10px;
+	font-size: 16px;
 }
-.image { 
- 	width: 100%;
- 	text-align: left;
- 	/*padding-bottom: 50px;*/
-	}
-.imagewrapper {
-	padding-top: 0px;
-	width: 595px;
+li:last-child {
+  margin-right: 0;
+}
+.linkwrapper {
+	text-align: left;
 	margin: auto;
+	padding-top: 28px;
 }
 .p{
-	font-family: Georgia;
-	font-size: 20px;
+	font-family: "proxima-nova",sans-serif;
+	font-weight: 400;
+	font-size: 1.1em;
 	color:#444444;
 	line-height: 1.8;
 }	
-.story { 
- 	width: 100%;
- 	text-align: left;
-
-	}
-.storywrapper {
-	max-width: 595px;
+.sitewrapper {
+	max-width: 500px;
+	min-width: 320px;
+	width: 52%;
 	margin: auto;
+	padding-top: 80px;
+	text-align: left;
 }
 
