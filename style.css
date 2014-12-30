@@ -25,7 +25,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	background-color: #f9f9f9;
+	background-color: #ecf0f1;
+	/*background-color: #2ecc71;*/
 }
 ol, ul {
 	list-style: none;
@@ -45,7 +46,11 @@ table {
 
 /*Website starts here!
 */
-a:link {color:#777;}    
+a:link {color: #777;
+		text-decoration: none;
+		border-bottom: 1px
+		solid #777;
+		}
 a:visited {color:#777;} 
 a:hover {color:#555;}   
 a:active {color:#777;}
@@ -58,47 +63,73 @@ a:active {color:#777;}
  	text-align: let;
 }
 .h1 {
-	font-family: "proxima-nova";
-	font-weight: 800; 
-	color:#333333;
-	font-size: 30px;
-	line-height: 2.5;
+	font-family: "proxima-nova",sans-serif;
+	font-weight: 600; 
+	color:#4a4a4a;
+	font-size: 3em;
+	margin-bottom: 24px;
 	text-align: left;
 }
 .h2 {
-	font-family: "proxima-nova";
-	font-weight: 400; 
-	color:#999999;
-	font-size: 12px;
+	color:#4a4a4a;
+	font-family: "proxima-nova",sans-serif;
+	font-weight: 600; 
+	font-size: 2em;
+	margin-top: 24px;
+	margin-bottom: 36px;
+	text-align: left;
 }
-li {
+li.links {
+	color:#4a4a4a;
+	font-size: 2.4em;
 	font-family: "proxima-nova",sans-serif;
 	font-weight: 400; 
-	display:inline;
-	margin-right: 10px;
-	font-size: 16px;
+	margin-bottom: 26px;
 }
-li:last-child {
+li.links:last-child {
   margin-right: 0;
 }
 .linkwrapper {
 	text-align: left;
 	margin: auto;
-	padding-top: 28px;
+	padding-bottom: 8px;
 }
 .p{
 	font-family: "proxima-nova",sans-serif;
 	font-weight: 400;
-	font-size: 1.1em;
+	font-size: 2.4em;
 	color:#444444;
 	line-height: 1.8;
+	padding-bottom: 8px;
 }	
 .sitewrapper {
-	max-width: 500px;
-	min-width: 320px;
-	width: 52%;
+	width: 66%;
 	margin: auto;
-	padding-top: 80px;
+	padding-top: 48px;
 	text-align: left;
 }
+
+@media (min-width: 500px) {
+
+.h1 {
+	font-size: 2.4em;
+}
+.h2 {
+	font-size: 1.6em;
+}	
+li.links {
+	font-size: 1.2em;
+	margin-bottom: 26px;
+}
+.p{
+	font-size: 1.6em;
+	color:#444444;
+	line-height: 1.8;
+	padding-bottom: 8px;
+}
+
+}
+
+
+
 
