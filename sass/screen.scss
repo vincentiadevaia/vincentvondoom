@@ -69,10 +69,11 @@ a:active {color:#777;}
 li.links {
 	font-size: 1em;
 	font-weight: 400; 
-	margin-bottom: 16px;
+	margin-bottom: 10px;
 
 	@include desktop {
     font-size: 1.2em;
+    margin-bottom: 16px;
   }
 }
 li.links:last-child {
