@@ -73,7 +73,6 @@ li.links {
 
 	@include desktop {
     font-size: 1.2em;
-	margin-bottom: 26px;
   }
 }
 li.links:last-child {
@@ -91,7 +90,7 @@ li.links:last-child {
 .p{
 	font-size: 1em;
 	font-weight: 400;
-	line-height: 1.9em;
+	line-height: 1.7em;
 	padding-bottom: 8px;
 
   	@include desktop {
@@ -104,4 +103,8 @@ li.links:last-child {
 	margin: auto;
 	padding-top: 40px;
 	padding-bottom: 40px;
+
+  @include desktop {
+    padding-top: 80px;
+  }
 }
