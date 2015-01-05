@@ -67,118 +67,143 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 19, ../sass/screen.scss */
+/* line 32, ../sass/screen.scss */
 body {
   font: 100% "proxima-nova", sans-serif;
   color: #4a4a4a;
+  text-align: left;
   background-color: #ecf0f1;
 }
 
-/* line 25, ../sass/screen.scss */
+/* line 39, ../sass/screen.scss */
 a:link {
   color: #777;
   text-decoration: none;
   border-bottom: 1px solid #777;
 }
 
-/* line 30, ../sass/screen.scss */
+/* line 44, ../sass/screen.scss */
 a:visited {
   color: #777;
 }
 
-/* line 31, ../sass/screen.scss */
+/* line 45, ../sass/screen.scss */
 a:hover {
   color: #555;
 }
 
-/* line 32, ../sass/screen.scss */
+/* line 46, ../sass/screen.scss */
 a:active {
   color: #777;
 }
 
-/* line 34, ../sass/screen.scss */
-.endnote {
-  width: 640px;
-  padding-top: 36px;
-  padding-bottom: 26px;
-  margin: auto;
-  text-align: let;
-}
-
-/* line 41, ../sass/screen.scss */
+/* line 48, ../sass/screen.scss */
 .h1 {
-  font-size: 3em;
+  font-size: 1.4em;
   font-weight: 600;
   margin-bottom: 24px;
-  text-align: left;
 }
-@media (min-width: 1024px) {
-  /* line 41, ../sass/screen.scss */
+@media (min-width: 700px) {
+  /* line 48, ../sass/screen.scss */
   .h1 {
-    font-size: 1.6em;
+    font-size: 2em;
+    margin-bottom: 18px;
+  }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  /* line 48, ../sass/screen.scss */
+  .h1 {
+    font-size: 3em;
+    margin-bottom: 36px;
   }
 }
 
-/* line 51, ../sass/screen.scss */
+/* line 62, ../sass/screen.scss */
 .h2 {
-  font-size: 2em;
+  font-size: 1.2em;
   font-weight: 600;
   margin-top: 24px;
-  margin-bottom: 36px;
-  text-align: left;
+  margin-bottom: 18px;
 }
-@media (min-width: 1024px) {
-  /* line 51, ../sass/screen.scss */
+@media (min-width: 700px) {
+  /* line 62, ../sass/screen.scss */
   .h2 {
     font-size: 1.2em;
     margin-bottom: 24px;
   }
 }
-
-/* line 63, ../sass/screen.scss */
-li.links {
-  font-size: 2.4em;
-  font-weight: 400;
-  margin-bottom: 26px;
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  /* line 62, ../sass/screen.scss */
+  .h2 {
+    font-size: 2em;
+    margin-bottom: 36px;
+  }
 }
-@media (min-width: 1024px) {
-  /* line 63, ../sass/screen.scss */
+
+/* line 77, ../sass/screen.scss */
+li.links {
+  font-size: 1em;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+@media (min-width: 700px) {
+  /* line 77, ../sass/screen.scss */
   li.links {
     font-size: 1.2em;
     margin-bottom: 26px;
   }
 }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  /* line 77, ../sass/screen.scss */
+  li.links {
+    font-size: 2.4em;
+  }
+}
 
-/* line 73, ../sass/screen.scss */
+/* line 90, ../sass/screen.scss */
 li.links:last-child {
   margin-right: 0;
 }
 
-/* line 76, ../sass/screen.scss */
-.linkwrapper {
+/* line 95, ../sass/screen.scss */
+.linkwrapper strong {
+  display: inline-block;
+  width: 4.8em;
+  padding: 0 .8em 0 0;
   text-align: left;
-  margin: auto;
-  padding-bottom: 8px;
 }
 
-/* line 81, ../sass/screen.scss */
+/* line 102, ../sass/screen.scss */
 .p {
-  font-size: 2.4em;
+  font-size: 1em;
   font-weight: 400;
-  line-height: 1.8;
+  line-height: 1.9em;
   padding-bottom: 8px;
 }
-@media (min-width: 1024px) {
-  /* line 81, ../sass/screen.scss */
+@media (min-width: 700px) {
+  /* line 102, ../sass/screen.scss */
   .p {
     font-size: 1.6em;
   }
 }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  /* line 102, ../sass/screen.scss */
+  .p {
+    font-size: 2.8em;
+  }
+}
 
-/* line 91, ../sass/screen.scss */
+/* line 117, ../sass/screen.scss */
 .sitewrapper {
   width: 66%;
+  max-width: 900px;
   margin: auto;
   padding-top: 80px;
-  text-align: left;
+  padding-bottom: 80px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  /* line 117, ../sass/screen.scss */
+  .sitewrapper {
+    padding-top: 120px;
+  }
 }
