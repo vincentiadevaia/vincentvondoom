@@ -1,4 +1,4 @@
-/* Welcome to Compass.
+  /* Welcome to Compass.
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
@@ -26,28 +26,41 @@ $desktop-width: 700px;
 }
 
 $font-stack: "proxima-nova",sans-serif;
-$primary-color: #4a4a4a;
+$primary-color: #222228;
 $text-align:left;
 
 body {
   font: 100% $font-stack;
   color: $primary-color;
   text-align: $text-align;
-  background-color: #ecf0f1;
+  background-color: #fff;
 }
 
-a:link {color: #777;
-		text-decoration: none;
-		border-bottom: 1px
-		solid #777;
-		}
-a:visited {color:#777;} 
-a:hover {color:#555;}   
-a:active {color:#777;}
+a:link {
+  color: #03B779;
+  opacity: 1;
+  text-decoration: none;
+}
+a:visited {
+  color: #03B779;
+  opacity: 1;
+  text-decoration: none;
+}
+a:hover {
+  color: #03B779;
+  opacity: 0.6;
+  text-decoration: none;
+}
+a:active {
+  color: #03B779;
+  opacity: 1;
+  text-decoration: none;
+}
 
 .h1 {
+  font-family: "freight-text-pro",sans-serif;
 	font-size: 1.2em;
-	font-weight: 600; 
+	font-weight: 400; 
 	margin-bottom: 24px;
 
   	@include desktop {
@@ -57,36 +70,29 @@ a:active {color:#777;}
 }
 .h2 {
 	font-size: 1em;
-	font-weight: 600; 
-	margin-top: 24px;
-	margin-bottom: 18px;
-
-	@include desktop {
-    font-size: 1.2em;
-    margin-bottom: 24px;
-  }
-}
-li.links {
-	font-size: 1em;
 	font-weight: 400; 
-	margin-bottom: 10px;
 
 	@include desktop {
-    font-size: 1.2em;
-    margin-bottom: 16px;
+    font-size: 1em;
   }
 }
-li.links:last-child {
-  margin-right: 0;
+.hero {
+  width: 90%;
+  margin-bottom: 20px;
 }
-.linkwrapper {
-	
-	strong {
-		display: inline-block;
-		width: 4.8em;
-		padding: 0 .8em 0 0;
-		text-align: left;
-	}
+.links {
+  width: 80%;
+  margin-bottom: 40px;
+ 
+}
+.name {
+  font-family: "proxima-nova",sans-serif;
+  font-weight: 700;
+  font-size: 1.3em;
+}
+.nav {
+  width: 100%;
+  margin-bottom: 40px;
 }
 .p{
 	font-size: 1em;
@@ -98,9 +104,19 @@ li.links:last-child {
     font-size: 1.6em;
   }
 }	
+.project {
+  width: 100%;
+  margin-top: 20px;
+}
+.projects {
+  border-top: 1px solid #e5e5e5;
+  width: 80%;
+  padding-top: 20px;
+  
+}
 .sitewrapper {
 	width: 70%;
-	max-width:900px;
+	max-width: 900px;
 	margin: auto;
 	padding-top: 40px;
 	padding-bottom: 40px;
@@ -108,4 +124,8 @@ li.links:last-child {
   @include desktop {
     padding-top: 80px;
   }
+}
+.strike {
+  text-decoration: line-through;
+  color: #e5e5e5;
 }
