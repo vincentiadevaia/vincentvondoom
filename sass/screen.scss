@@ -37,22 +37,22 @@ body {
 }
 
 a:link {
-  color: #03B779;
+  color: #FF5B60;
   opacity: 1;
   text-decoration: none;
 }
 a:visited {
-  color: #03B779;
+  color: #FF5B60;
   opacity: 1;
   text-decoration: none;
 }
 a:hover {
-  color: #03B779;
+  color: #FF5B60;
   opacity: 0.6;
   text-decoration: none;
 }
 a:active {
-  color: #03B779;
+  color: #FF5B60;
   opacity: 1;
   text-decoration: none;
 }
@@ -77,22 +77,31 @@ a:active {
   }
 }
 .hero {
-  width: 90%;
+  width: 88%;
+  max-width: 680px;
   margin-bottom: 20px;
 }
 .links {
   width: 80%;
   margin-bottom: 40px;
- 
+  max-width: 640px;
 }
 .name {
   font-family: "proxima-nova",sans-serif;
   font-weight: 700;
-  font-size: 1.3em;
+  font-size: 1em;
+
+  @include desktop {
+    font-size: 1.4em;
+  }
 }
 .nav {
   width: 100%;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+
+  @include desktop {
+    margin-bottom: 32px;
+  }
 }
 .p{
 	font-size: 1em;

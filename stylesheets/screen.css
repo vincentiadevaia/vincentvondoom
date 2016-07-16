@@ -2,7 +2,7 @@
 * In this file you should write your main styles. (or centralize your imports)
 * Import this file using the following HTML or equivalent:
 * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 5, ../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,181 +24,141 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
 
-/* line 32, ../sass/screen.scss */
+@font-face {
+  font-family: 'FoundersGroteskWeb-Semibold';
+  src: url("../klim/FoundersGroteskWeb-Semibold.woff") format("woff"), url("../klim/FoundersGroteskWeb-Semibold.eot") format("eot");
+}
+/* line 38, ../sass/screen.scss */
 body {
-  font: 100% "proxima-nova", sans-serif;
+  font: 100% "freight-text-pro", Georgia, serif;
   color: #222228;
   text-align: left;
   background-color: #fff;
 }
 
-/* line 39, ../sass/screen.scss */
+/* line 45, ../sass/screen.scss */
 a:link {
-  color: #03B779;
+  color: #FF5B60;
   opacity: 1;
   text-decoration: none;
 }
 
-/* line 44, ../sass/screen.scss */
+/* line 50, ../sass/screen.scss */
 a:visited {
-  color: #03B779;
+  color: #FF5B60;
   opacity: 1;
   text-decoration: none;
 }
 
-/* line 49, ../sass/screen.scss */
+/* line 55, ../sass/screen.scss */
 a:hover {
-  color: #03B779;
+  color: #FF5B60;
   opacity: 0.6;
   text-decoration: none;
 }
 
-/* line 54, ../sass/screen.scss */
+/* line 60, ../sass/screen.scss */
 a:active {
-  color: #03B779;
+  color: #FF5B60;
   opacity: 1;
   text-decoration: none;
 }
 
-/* line 60, ../sass/screen.scss */
+/* line 65, ../sass/screen.scss */
+.contentwrapper {
+  width: 300px;
+}
+@media (min-width: 600px) {
+  /* line 65, ../sass/screen.scss */
+  .contentwrapper {
+    width: 760px;
+  }
+}
+
+/* line 72, ../sass/screen.scss */
 .h1 {
-  font-family: "freight-text-pro",sans-serif;
-  font-size: 1.2em;
-  font-weight: 400;
-  margin-bottom: 24px;
+  font-family: "FoundersGroteskWeb-Semibold";
+  font-size: 3em;
+  line-height: 1.1;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: auto;
 }
-@media (min-width: 700px) {
-  /* line 60, ../sass/screen.scss */
+@media (min-width: 600px) {
+  /* line 72, ../sass/screen.scss */
   .h1 {
-    font-size: 2em;
-    margin-bottom: 18px;
+    line-height: 1.2;
   }
-}
-
-/* line 71, ../sass/screen.scss */
-.h2 {
-  font-size: 1em;
-  font-weight: 400;
-}
-@media (min-width: 700px) {
-  /* line 71, ../sass/screen.scss */
-  .h2 {
-    font-size: 1em;
-  }
-}
-
-/* line 79, ../sass/screen.scss */
-.hero {
-  width: 90%;
-  margin-bottom: 20px;
 }
 
 /* line 83, ../sass/screen.scss */
-.links {
-  width: 80%;
-  margin-bottom: 40px;
-}
-
-/* line 88, ../sass/screen.scss */
-.name {
-  font-family: "proxima-nova",sans-serif;
-  font-weight: 700;
-  font-size: 1.3em;
-}
-
-/* line 93, ../sass/screen.scss */
 .nav {
   width: 100%;
   margin-bottom: 40px;
 }
 
-/* line 97, ../sass/screen.scss */
+/* line 87, ../sass/screen.scss */
 .p {
-  font-size: 1em;
+  font-family: "freight-text-pro", Georgia, serif;
+  font-size: 1.4em;
   font-weight: 400;
-  line-height: 1.7em;
-  padding-bottom: 8px;
+  margin-bottom: 24px;
+  line-height: 1.4;
 }
-@media (min-width: 700px) {
-  /* line 97, ../sass/screen.scss */
+@media (min-width: 600px) {
+  /* line 87, ../sass/screen.scss */
   .p {
-    font-size: 1.6em;
+    font-size: 1.4em;
+    margin-bottom: 18px;
   }
 }
 
-/* line 107, ../sass/screen.scss */
-.project {
-  width: 100%;
-  margin-top: 20px;
-}
-
-/* line 111, ../sass/screen.scss */
-.projects {
-  border-top: 1px solid #e5e5e5;
-  width: 80%;
-  padding-top: 20px;
-}
-
-/* line 117, ../sass/screen.scss */
+/* line 99, ../sass/screen.scss */
 .sitewrapper {
-  width: 70%;
-  max-width: 900px;
-  margin: auto;
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-@media (min-width: 700px) {
-  /* line 117, ../sass/screen.scss */
-  .sitewrapper {
-    padding-top: 80px;
-  }
-}
-
-/* line 128, ../sass/screen.scss */
-.strike {
-  text-decoration: line-through;
-  color: #e5e5e5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
